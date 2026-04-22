@@ -1,0 +1,31 @@
+# chezmoi が管理対象外にするパターン
+# https://www.chezmoi.io/reference/special-files-and-directories/chezmoiignore/
+
+README.md
+LICENSE
+.github/
+.gitignore
+
+# macOS
+.DS_Store
+
+# Claude Code が自動生成するもの（配布対象外）
+.claude/projects/
+.claude/sessions/
+.claude/shell-snapshots/
+.claude/session-env/
+.claude/tasks/
+.claude/plans/
+.claude/file-history/
+.claude/paste-cache/
+.claude/cache/
+.claude/backups/
+.claude/debug/
+.claude/plugins/
+.claude/ide/
+.claude/statsig/
+.claude/history.jsonl
+.claude/stats-cache.json
+.claude/policy-limits.json
+.claude/remote-settings.json
+.claude/settings.local.json

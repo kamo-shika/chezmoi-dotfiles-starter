@@ -1,0 +1,15 @@
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# プロジェクトローカルの Claude Code 設定（配布対象ではない）
+.claude/
+
+# 秘密情報は絶対に commit しない
+.env
+.env.*
+*.key
+*.pem
+secrets/
